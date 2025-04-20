@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d01b62b0-5fb0-4869-bceb-fa6b9300dd70" name="Familine (project level)" url="https://share.familine.mooo.com">
+        <fileTransfer accessType="SFTP" host="minteck.org" port="22465" sshConfigId="75d2cea2-0949-40a7-ae05-3488d7df2c9f" sshConfig="root@minteck.org:22465 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

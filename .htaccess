@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^/?f/([a-zA-Z0-9_\-]+)$ /file/?i=$1 [L]
+RewriteRule ^/?d/([a-zA-Z0-9_\-]+)$ /download/?i=$1 [L]
+RewriteRule ^/?p/([a-zA-Z0-9_\-]+)$ /preview/?i=$1 [L]
